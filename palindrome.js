@@ -1,10 +1,21 @@
-function palindrome(str) {
-    let word = str.toLowerCase().replace(/[^a-z]/g, '');
-    var spot = 0;
-    for (var i = spot; spot < word.length; i++)
+function palindrome(str)
+{
+    let word = str.toLowerCase().replace(/[^a-z1-9]/g, '');
+
+    if (word.length % 2 != 0)
     {
-      if (word[spot] != word[word.length - (++spot)])
+      for (var i = 0; i < Math.floor(word.length / 2); i++)
+      {
+        if (word[i] != word[(word.length-1)-i])
+          return false;
+      }
+      return true;
+    }
+
+    for (var i = 0; i < (word.length / 2); i++)
+    {
+      if (word[i] != word[(word.length-1)-i])
         return false;
     }
     return true;
-  }
+}
