@@ -1,0 +1,68 @@
+*
+{
+    margin: 0;
+    padding: 0;
+    border: solid 0.5px black;
+}
+
+body
+{
+    height: 100vh;
+    width: 100vw;
+    background: rgb(239, 235, 231);
+}
+nav
+{
+    width: inherit;
+    height: 2rem;
+    background-color: red;
+    text-align: center;
+}
+nav h1
+{
+    display: inline-block;
+    height: 2rem;
+}
+.nav-container
+{
+    position: relative;
+    float: right;
+    width: 50vw;
+    height: 2rem;
+    background: green;
+}
+
+.nav-menu
+{
+    list-style: none;
+    width: inherit;
+    height: 2rem;
+    display: inline-flex;
+    text-align: center;
+    align-items: center;
+}
+
+.nav-item
+{
+    flex-grow: 1;
+}
+
+#about
+{
+    width: 100vw;
+    background-color: yellow;
+}
+.about-text
+{
+    background-color: blue;
+    width: 50vw;
+    float: left;
+}
+.about-image
+{
+    position: relative;
+    float: right;
+    border-radius: 100%;
+    width: 200px;
+    height: 200px;
+}
