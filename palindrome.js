@@ -5,7 +5,6 @@ function palindrome(str) {
     {
       if (word[spot] != word[word.length - (++spot)])
         return false;
-      spot++;
     }
     return true;
   }
