@@ -1,7 +1,8 @@
-@font-face {
+@font-face
+{
     font-family: 'ChunkFive-Regular';
     src: url(ChunkFive-Regular.otf);
-  }
+}
 
 *
 {
@@ -60,14 +61,22 @@ nav h1
 #about
 {
     width: 100%;
+<<<<<<< HEAD
     text-align: left;
+=======
+>>>>>>> 37bd9a75336c515de16bfcb8a3517b64cd930f2c
     background-color: wheat;
     padding: 10px;
 }
 .about-text
 {
+<<<<<<< HEAD
     font-size: 46px;
     font-family: 'ChunkFive-Regular', sans-serif;
+=======
+    font-family: 'ChunkFive-Regular';
+    font-size: 48px;
+>>>>>>> 37bd9a75336c515de16bfcb8a3517b64cd930f2c
     width: inherit;
 }
 .about-image
