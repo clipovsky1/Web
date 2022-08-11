@@ -48,8 +48,8 @@ nav h1
 #page-content
 {   display: flex;
     flex-direction: column;
-    margin-left: 5%;
-    margin-right: 5%;
+    margin-left: 15%;
+    margin-right: 15%;
 }
 
 #about
@@ -61,7 +61,6 @@ nav h1
 }
 .about-text
 {
-    background-color: /*blue;*/;
     width: inherit;
 }
 .about-image
