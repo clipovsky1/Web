@@ -1,3 +1,8 @@
+@font-face {
+    font-family: 'ChunkFive-Regular';
+    src: url(ChunkFive-Regular.otf);
+  }
+
 *
 {
     margin: 0;
@@ -55,12 +60,14 @@ nav h1
 #about
 {
     width: 100%;
-    text-align: center;
+    text-align: left;
     background-color: wheat;
     padding: 10px;
 }
 .about-text
 {
+    font-size: 46px;
+    font-family: 'ChunkFive-Regular', sans-serif;
     width: inherit;
 }
 .about-image
