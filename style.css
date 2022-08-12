@@ -1,3 +1,7 @@
+html
+{
+    min-height: 100%;
+}
 @font-face
 {
     font-family: 'ChunkFive-Regular';
@@ -8,15 +12,24 @@
 {
     margin: 0;
 }
-
+a
+{
+    text-decoration: none;
+    color: whitesmoke;
+}
+a:hover
+{
+    cursor: pointer;
+}
 body
 {
-    height: 100vh;
+    height: 100%;
     width: 100vw;
-    background: rgb(239, 235, 231);
+    background: #f5ead5;
 }
 nav
-{
+{   top: 0;
+    position: fixed;
     padding: 10px;
     width: 100vw;
     height: 2rem;
@@ -52,27 +65,34 @@ nav h1
     border-right: solid 1px whitesmoke;
 }
 #page-content
-{   display: flex;
+{   margin-top: 5%;
+    display: flex;
     flex-direction: column;
     margin-left: 15%;
     margin-right: 15%;
 }
 
-#about
+#home
 {
     width: 100%;
-    background-color: wheat;
-    padding: 10px;
+    padding-top: 50px;
+    padding-left: 10px;
+    padding-right: 10px;
+    padding-bottom: 10px;
 }
-.about-text
+.heading-style
 {
 
     font-family: 'ChunkFive-Regular';
     font-size: 48px;
-
     width: inherit;
 }
-.about-image
+.home-text
+{
+    margin-top: 20px;
+    font-size: 24px;
+}
+.home-image
 {
     position: relative;
     float: right;
@@ -84,7 +104,7 @@ nav h1
 #stuff
 {
     width: 100%;
+    height: 700px;
     text-align: center;
-    background-color: royalblue;
-    padding: 10px;
+    padding: 50px 10px 10px 10px;
 }
