@@ -11,6 +11,7 @@ html
 *
 {
     margin: 0;
+    caret-color: transparent;
 }
 a
 {
