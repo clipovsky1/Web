@@ -83,12 +83,12 @@ nav h1
 }
 .heading-style
 {
-
+    text-align: center;
     font-family: 'ChunkFive-Regular';
     font-size: 48px;
     width: inherit;
 }
-.home-text
+.text
 {
     margin-top: 20px;
     font-size: 24px;
@@ -105,7 +105,17 @@ nav h1
 #stuff
 {
     width: 100%;
-    height: 700px;
-    text-align: center;
     padding: 50px 10px 10px 10px;
+}
+
+#about
+{
+    width: 100%;
+    height: 700px;
+    padding: 50px 10px 10px 10px;
+}
+.about-content
+{
+    height: inherit;
+    width: 50%;
 }
