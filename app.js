@@ -1,9 +1,6 @@
 
 document.getElementById("welcome").innerHTML = greeting();
 
-
-
-
 function greeting()
 {
     let greetings = ["Howdy", "Hello", "Welcome", "Hi", "G'day", "Hey"];
